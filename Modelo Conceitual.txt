@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------------------------------------------
+
+Modelo Conceitual
+
+----------------------------------------------------------------------------------------------------------------
+
+Tabelas:
+
+Pessoa - Código, nome, email, soft delete, cpf, data de nascimento, número e ddd.
+Usuário - Código, usuário e senha.
+Endereço - Código, Pais, estado, cidade, bairro, cep, logradouro, numero e complemento.
+Questionário - Código, titulo, descrição, perguntas, categoria, nome do criador e duração.
+Diagnóstico - Código, date de geração, duração, resultado, observação e segmento da ação.
+Recomendação - Código, data de geração, recomendação.
+
+----------------------------------------------------------------------------------------------------------------
+
+
+Relacionamentos:
+Pessoa (1:N) Endereço
+Pessoa (1:1) Usuário
+Pessoa (1:N) Questionário 
+Questionário (1:1) Diagnóstico
+Diagnóstico (1:N) Recomendações 
