@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B7FD9D1-2027-4A8F-DB52-586490369ACE" name="USUARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:14:26 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_USUARIO" id="EFB565F0-67B9-77D6-3F66-DEB9092B4C60">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:14:33 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USUARIO" id="65BCE1F2-1824-C34C-554F-3C8A80B3541D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:14:45 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SENHA" id="BA8B5F0B-DF8B-A946-A336-1E2EDA7ACE06">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:14:55 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PESSOA" id="E700C12C-7B4D-92A1-A6E1-F43C03A6C688">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:15:24 UTC</createdTime>
+<generatorID>53540A70-8030-00EE-5174-697DF01A5333</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<referedAttribute>DE7C6B18-EE44-9F08-D7C8-85F702CD34D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="634EC7D2-0A7A-9AC7-6605-98FE04554832" name="USUARIO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:14:44 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EFB565F0-67B9-77D6-3F66-DEB9092B4C60</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

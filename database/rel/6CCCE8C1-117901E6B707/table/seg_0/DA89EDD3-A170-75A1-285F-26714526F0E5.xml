@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA89EDD3-A170-75A1-285F-26714526F0E5" name="BAIRRO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>43BBF320-6BE0-15E0-A548-A7D7D203A0B0</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_BAIRRO" id="25E208D1-DE86-8CF1-185C-AA1DDE5E8EE8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>E2C949FA-1A9C-C086-3D7B-6161D2E38C9C</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="8F549391-89D5-14EB-EF8C-2CC27C324C40">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>E56FF9DA-B0B7-4D68-1462-BD3F84B2B2F3</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE_COD_CIDADE" id="7726A72A-F801-3057-CEC1-D9EBD7913A67">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>C2CC8AE9-D5F0-0FD3-0905-A9D68990C04B</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE6B343A-916B-5098-9993-5E52982DEF4F" referredColumn="C0668F39-B57D-18B3-D2AE-9DB433BB2B37"/>
+</associations>
+</Column>
+<Column name="ENDERECO_COD_ENDERECO" id="FA274453-1590-F2E6-FD6E-70B59099347D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>464A2A58-6130-2ACB-2397-4F3AB36840C6</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48D4166B-EA9F-752C-D5DE-3B097580461C" referredColumn="CC438B40-F92E-4CC6-0D5F-4F334FFC5B65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5418E607-A354-B933-2AA8-678009B66224" name="BAIRRO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>0DC30ABE-7324-EFA7-FDCC-5385D9A64B10</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25E208D1-DE86-8CF1-185C-AA1DDE5E8EE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6529F439-3E3B-E4C9-33E3-F281D94C93D6" name="BAIRRO_ENDERECO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>D6AC6C88-03C4-02C9-543F-484520DD4D84</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA274453-1590-F2E6-FD6E-70B59099347D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCCC4779-CA59-FDC9-6AEC-BEB2C7D342EF" name="BAIRRO_CIDADE_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>1DC06CDE-C814-9F3A-EAA9-FFFDD05E351F</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7726A72A-F801-3057-CEC1-D9EBD7913A67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

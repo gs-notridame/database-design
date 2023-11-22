@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D52931D0-F0A1-682E-9615-6F14A9150F44" name="PESSOA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:11:26 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_PESSOA" id="DE7C6B18-EE44-9F08-D7C8-85F702CD34D6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:11:43 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="EA438513-E59F-B83D-4A7B-131D93AB844D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:11:32 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="12E42D75-6132-50F5-7BAF-4E8DCAFF2F99">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:11:52 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SOFT_DELETE" id="235148F0-558B-F140-4C9A-12FFEAA2C7CD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:12:03 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="ABA0A7E4-F6C5-55EC-FCAE-30BE368357D2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:23:23 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_NASC" id="5821D27A-24C4-DBFA-DF3D-BA89FC1F045F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:23:30 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C60AB6E-B6B1-02C6-0031-1F18EF15B43A" name="PESSOA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:11:51 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DE7C6B18-EE44-9F08-D7C8-85F702CD34D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

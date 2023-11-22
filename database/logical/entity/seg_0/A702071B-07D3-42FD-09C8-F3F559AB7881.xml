@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A702071B-07D3-42FD-09C8-F3F559AB7881" name="ESTADO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-09 22:50:16 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_ESTADO" id="1EB0711B-2A92-015D-E2EC-3998E0F296EB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-09 22:50:20 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="82BE61C8-6C11-D991-F9E7-CFAD11E0A300">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-09 22:50:27 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PAIS" id="EC22FD3F-94B7-04EC-BC7C-4202B32F11CE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-09 22:51:49 UTC</createdTime>
+<generatorID>C5DFDACC-297E-B730-16C2-31DF5FB1670C</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<referedAttribute>FE499ADC-5BD5-112C-8F00-3CB95C174B96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29F810FB-56F1-9A17-8DCE-D35BDFA40068" name="ESTADO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-09 22:50:29 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1EB0711B-2A92-015D-E2EC-3998E0F296EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

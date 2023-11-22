@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C58E067-45FA-C45E-66BA-803FB370E91C" name="RECOMENDACAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>C4B93E6D-60C7-C8B9-4D2A-3CD502A78EB5</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_RECOMENDACAO" id="648CE9E7-8789-5CE9-FC96-921D6E93BCBC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>B03DC4EF-8F31-AD0B-ED7D-FF2C079B881F</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIAGNOSTICO_COD_DIAGNOSTICO" id="5FA0E3FD-F35F-4E26-1EEA-407F5963944A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>A4E4C24C-3120-FBB0-8C52-BB098B2EF470</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86FE27D4-936E-A5E9-6225-496107DBA241" referredColumn="1715A8B1-8ACA-B33C-AB99-B4D03C08BD73"/>
+</associations>
+</Column>
+<Column name="DATA_GERACAO" id="C3DBF949-EAB8-FC7D-E764-F85F94A902F2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>670FF7AB-02E6-16BB-120B-CBBF9E8324C1</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECOMENDACAO" id="DB0E2228-86D9-FDF9-DA6A-B8D806C21723">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>90D83CA5-41FA-91EA-9982-6BF2F2D7E835</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BEA03F0-6864-A634-F48A-3CDBDCE456CB" name="RECOMENDACAO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>3B50DE71-7DC2-8E6F-620B-D29E39C4204A</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="648CE9E7-8789-5CE9-FC96-921D6E93BCBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65150A8E-EAA6-C122-0C28-6A8C5EF3B6B5" name="RECOMENDACAO_DIAGNOSTICO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>E78FF7FA-0D5F-A805-B8DE-2FB4242956C9</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FA0E3FD-F35F-4E26-1EEA-407F5963944A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

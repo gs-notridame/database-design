@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="654B6031-A878-51C6-D378-5258B3359676" name="DIAGNOSTICO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>D1413585-F327-9623-4067-6821801E4268</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_DIAGNOSTICO" id="1715A8B1-8ACA-B33C-AB99-B4D03C08BD73">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>1E797C23-3820-1E4E-4AC5-35A7BB073867</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUESTIONARIO_COD_QUESTIONARIO" id="2B09943B-7E74-4789-248E-44ED8FBF6D5C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>15C5B163-74C7-D54C-23EE-18BBC79C2714</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43D2B403-5DBC-C585-CDCC-7B17E0FFAF88" referredColumn="EBA802ED-F504-1F67-905B-169C881C3DC5"/>
+</associations>
+</Column>
+<Column name="DATA_GERACAO" id="13CAD2B6-0058-079A-35DC-F3CA48D845E6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>C6F474AA-2246-6D0A-DA53-CBD4FA483081</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACAO" id="5F59885B-F323-583B-9D42-98277958DD8A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>807D1BF2-E575-A869-EC05-F88FCD16AFCE</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESULTADO" id="03CE9EBC-334B-AFF3-7886-B091849BF7E2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>F63284ED-5FF1-7F1C-A9FA-2D65CD011811</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACAO" id="53825D8E-F55F-9FEC-139C-37D6FBDCB73A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>6DDD199A-4363-6111-73C7-72549E5BDAB8</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGMENTO_ACAO" id="2392EF9A-5E7B-E153-D2E1-8FE82A50CA7A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>2E271338-8150-2436-F103-AEBBC7AD4159</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45F197FA-2CF1-2EB4-B09F-33AD24520EFC" name="DIAGNOSTICO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>F3CAF66B-7571-4F11-CB82-4A6052376928</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1715A8B1-8ACA-B33C-AB99-B4D03C08BD73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53860E3E-93BB-D552-62F7-0F343CC42433" name="DIAGNOSTICO__IDX">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>29AA0982-B200-5EEA-1FE0-3AE2865AA749</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2B09943B-7E74-4789-248E-44ED8FBF6D5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05F99B35-033E-FF75-9449-C4F83D382B6B" name="DIAGNOSTICO_QUESTIONARIO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>29AA0982-B200-5EEA-1FE0-3AE2865AA749</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B09943B-7E74-4789-248E-44ED8FBF6D5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

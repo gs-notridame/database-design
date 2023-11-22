@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43BBF320-6BE0-15E0-A548-A7D7D203A0B0" name="BAIRRO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-09 22:55:15 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_BAIRRO" id="E2C949FA-1A9C-C086-3D7B-6161D2E38C9C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-09 22:55:22 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="E56FF9DA-B0B7-4D68-1462-BD3F84B2B2F3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-09 22:55:33 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CIDADE" id="C2CC8AE9-D5F0-0FD3-0905-A9D68990C04B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-09 22:56:19 UTC</createdTime>
+<generatorID>1DC06CDE-C814-9F3A-EAA9-FFFDD05E351F</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<referedAttribute>BF568FE1-7B70-542B-278B-ED606E7386F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ENDERECO" id="464A2A58-6130-2ACB-2397-4F3AB36840C6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:10:23 UTC</createdTime>
+<generatorID>D6AC6C88-03C4-02C9-543F-484520DD4D84</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<referedAttribute>7D9DDABA-75EB-DC79-9CEE-26983EA6B72B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0DC30ABE-7324-EFA7-FDCC-5385D9A64B10" name="BAIRRO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-09 22:55:28 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2C949FA-1A9C-C086-3D7B-6161D2E38C9C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

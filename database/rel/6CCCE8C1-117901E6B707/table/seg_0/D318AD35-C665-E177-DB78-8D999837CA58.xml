@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D318AD35-C665-E177-DB78-8D999837CA58" name="USUARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>6B7FD9D1-2027-4A8F-DB52-586490369ACE</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_USUARIO" id="FF2568D5-6FE2-A385-92AF-E9027082926E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>EFB565F0-67B9-77D6-3F66-DEB9092B4C60</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO" id="C2B9EBFF-7370-3D14-FDC7-75B152DECE7E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>65BCE1F2-1824-C34C-554F-3C8A80B3541D</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENHA" id="38359954-5BFC-7003-BA57-CAFEC0A229CE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>BA8B5F0B-DF8B-A946-A336-1E2EDA7ACE06</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESSOA_COD_PESSOA" id="4ED0117B-A9D3-7550-5C3B-A41EF6F91B86">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>E700C12C-7B4D-92A1-A6E1-F43C03A6C688</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE78FCE7-2770-253A-B278-364BE0D79FC6" referredColumn="9D86AB64-C85F-2738-C917-AE1C05934840"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2867B3D0-DCDB-9075-4C02-B568567E26A8" name="USUARIO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>634EC7D2-0A7A-9AC7-6605-98FE04554832</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF2568D5-6FE2-A385-92AF-E9027082926E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0162790-4AB3-19C7-5352-C06F6DEA8DF1" name="USUARIO__IDX">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>53540A70-8030-00EE-5174-697DF01A5333</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4ED0117B-A9D3-7550-5C3B-A41EF6F91B86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B189A42E-007D-2CE4-3E80-8FE9500AECB5" name="USUARIO_PESSOA_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<generatorID>53540A70-8030-00EE-5174-697DF01A5333</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ED0117B-A9D3-7550-5C3B-A41EF6F91B86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
