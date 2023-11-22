@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CEA5DB2-FA9E-5BEE-1BB6-DFF931479ED9" name="PESSOA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16954502-3922-582B-C4CE-EBEF097964C7" name="PESSOA">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>D52931D0-F0A1-682E-9615-6F14A9150F44</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_PESSOA" id="9D86AB64-C85F-2738-C917-AE1C05934840">
+<Column name="COD_PESSOA" id="8B9791A3-EE3A-1C0D-CCE5-86ECEE2D7F50">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>DE7C6B18-EE44-9F08-D7C8-85F702CD34D6</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOME" id="6A4F8DA1-2AAF-B53B-E00C-CD742FB53729">
+<Column name="NOME" id="604D3EC9-22E1-1500-0E65-D016D44322AB">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>EA438513-E59F-B83D-4A7B-131D93AB844D</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="EMAIL" id="1CEBE85E-B6B0-536E-0F50-37EB9298B71C">
+<Column name="EMAIL" id="9A1CF6A6-2979-C33D-4DC5-A20518DEEB48">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>12E42D75-6132-50F5-7BAF-4E8DCAFF2F99</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -45,9 +45,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SOFT_DELETE" id="4BC2A528-E224-08E9-A202-184F72C0F24C">
+<Column name="SOFT_DELETE" id="C61BCC60-190B-6E60-0310-67693DD8404E">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>235148F0-558B-F140-4C9A-12FFEAA2C7CD</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -58,9 +58,9 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CPF" id="7B46DCAE-5C6C-528F-9A67-1DD556BD323C">
+<Column name="CPF" id="FEBD6267-C027-8ADD-AA22-C18997562C52">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>ABA0A7E4-F6C5-55EC-FCAE-30BE368357D2</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -71,9 +71,9 @@
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DATA_NASC" id="9BB4C3E1-BEEE-4826-D039-C0C158BF56D8">
+<Column name="DATA_NASC" id="B1317BFE-DBD0-185A-10FB-D1FC19789A17">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>5821D27A-24C4-DBFA-DF3D-BA89FC1F045F</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -83,18 +83,44 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="USUARIO" id="56366A0E-B0F3-C2FF-933F-61EC92D776E9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
+<generatorID>407A4252-2C12-0253-9219-6290EF4E12F8</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENHA" id="893438BE-6518-5D77-734A-BAAB9FE61D1E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
+<generatorID>E1A8AD2C-D690-4003-B29D-C8C8AEA2FCD1</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2E9A8986-44F5-5242-60DF-609A7C825488" name="PESSOA_PK">
+<ind_PK_UK id="B13CA7F1-6B4F-27FF-2DC5-5AB13B42FBD1" name="PESSOA_PK">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>5C60AB6E-B6B1-02C6-0031-1F18EF15B43A</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9D86AB64-C85F-2738-C917-AE1C05934840"/>
+<colUsage columnID="8B9791A3-EE3A-1C0D-CCE5-86ECEE2D7F50"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

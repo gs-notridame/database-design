@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="428FE3FA-37CC-7EC5-CAA8-2E8F123A9E66" name="ESTADO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F739D0A8-948C-FA11-A763-9E08BF1C7309" name="ESTADO">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>A702071B-07D3-42FD-09C8-F3F559AB7881</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_ESTADO" id="BEEB6D12-D338-F25A-48AD-8A61F5C3C6CE">
+<Column name="COD_ESTADO" id="FF98832B-B332-FF15-2917-9DE1FE60B228">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>1EB0711B-2A92-015D-E2EC-3998E0F296EB</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOME" id="35120A41-EBF9-EB0E-332E-9DB8F0EE4163">
+<Column name="NOME" id="2E1BDC30-2555-4E84-F528-785AAE54A256">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>82BE61C8-6C11-D991-F9E7-CFAD11E0A300</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PAIS_COD_PAIS" id="315F9B31-34A5-15B9-2233-F54267C05366">
+<Column name="PAIS_COD_PAIS" id="9A16E614-E186-7395-6A4D-D1A753A3CB51">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>EC22FD3F-94B7-04EC-BC7C-4202B32F11CE</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,32 +44,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="15B70E32-88B9-E97E-D6D3-BDCBC7B839B4" referredColumn="DA531B18-03A3-8FC5-294C-53DE517C4CA6"/>
+<colAssociation fkAssociation="10AB1372-297A-E803-9D46-8FFB72FA7BFD" referredColumn="F4D3ADA5-E55E-F287-DB0C-783B22E1A819"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B438F523-DEFA-A9E4-7585-48E32CE12DCF" name="ESTADO_PK">
+<ind_PK_UK id="2A20275F-F517-967B-D505-852025107F28" name="ESTADO_PK">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>29F810FB-56F1-9A17-8DCE-D35BDFA40068</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BEEB6D12-D338-F25A-48AD-8A61F5C3C6CE"/>
+<colUsage columnID="FF98832B-B332-FF15-2917-9DE1FE60B228"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5AA21065-DA29-2D1A-C1F0-8BD7CD876581" name="ESTADO_PAIS_FK">
+<ind_PK_UK id="002A2C21-9ED3-2772-832E-DA006F7CFF01" name="ESTADO_PAIS_FK">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>C5DFDACC-297E-B730-16C2-31DF5FB1670C</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="315F9B31-34A5-15B9-2233-F54267C05366"/>
+<colUsage columnID="9A16E614-E186-7395-6A4D-D1A753A3CB51"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

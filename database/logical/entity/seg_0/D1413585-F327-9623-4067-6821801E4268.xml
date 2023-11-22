@@ -4,7 +4,7 @@
 <createdTime>2023-11-21 23:24:32 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-11-21 23:24:45 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <generatorID>29AA0982-B200-5EEA-1FE0-3AE2865AA749</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
 </engineerTo>
 <referedAttribute>1A388BE6-F5DE-2075-7F09-05486796DCE1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,20 +46,7 @@
 <createdTime>2023-11-21 23:51:21 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DURACAO" id="807D1BF2-E575-A869-EC05-F88FCD16AFCE">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:51:55 UTC</createdTime>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -72,7 +59,7 @@
 <createdTime>2023-11-21 23:52:30 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -86,7 +73,7 @@
 <createdTime>2023-11-21 23:52:39 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -100,7 +87,7 @@
 <createdTime>2023-11-21 23:55:34 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -116,7 +103,7 @@
 <createdTime>2023-11-21 23:25:00 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

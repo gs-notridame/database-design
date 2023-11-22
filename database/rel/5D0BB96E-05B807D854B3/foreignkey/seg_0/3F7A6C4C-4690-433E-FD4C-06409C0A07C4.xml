@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F7A6C4C-4690-433E-FD4C-06409C0A07C4" containerWithKeyObject="F5867130-D31D-53B1-3CDE-15E471DD3744" localFKIndex="10ADF32C-9AF5-D900-7B6E-43801DE2CC45" name="DIAGNOSTICO_QUESTIONARIO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
+<generatorID>29AA0982-B200-5EEA-1FE0-3AE2865AA749</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<referredTableLongName>QUESTIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D846FA91-A270-C309-6280-BE3403FFF62B</referredTableID>
+<keyObject>B095C60F-B3B5-71BF-973B-207552CFE8B8</keyObject>
+<referredKeyID>B095C60F-B3B5-71BF-973B-207552CFE8B8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_QUESTIONARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

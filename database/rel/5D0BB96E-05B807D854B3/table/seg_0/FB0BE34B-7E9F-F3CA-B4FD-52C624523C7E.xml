@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="289E4CBB-888B-6C41-BD8B-14A28BB74622" name="TELEFONE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB0BE34B-7E9F-F3CA-B4FD-52C624523C7E" name="TELEFONE">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>04E96B87-DA09-0732-2E85-0358C8066FFB</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_TELEFONE" id="666AFCDD-CF2F-9877-D992-89F3A8D05762">
+<Column name="COD_TELEFONE" id="CDEF1707-F0A1-DF8B-0E0F-ACF6D48385A9">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>0AB21924-E2B8-5E05-10D1-FEF612CC2D59</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NUMERO" id="BC347DDB-F729-B5FC-5D07-E59680C45215">
+<Column name="NUMERO" id="53E84EE1-CABB-204E-B972-CE0D94045745">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>D605857B-9846-0A61-BE5A-71C867203A82</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>9,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DDD" id="FB3093CB-BF2C-6408-CF9D-75E71F629905">
+<Column name="DDD" id="ACB1D8A3-2A2A-4ADE-5CDD-B205F00B76D0">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>8BF30724-2025-A339-5EF9-0B6FA1AE50F6</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -44,9 +44,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PESSOA_COD_PESSOA" id="BA493307-F306-ABB1-743D-EF00A74FFAE2">
+<Column name="PESSOA_COD_PESSOA" id="679E3302-62CD-4129-FE03-4DFB2BAC1A4C">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>DC252B00-4B83-BA7B-C30B-9B50D8EE8FCC</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -56,32 +56,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="52D9FA84-EC66-80CD-3C09-9F26BF7E8AEC" referredColumn="9D86AB64-C85F-2738-C917-AE1C05934840"/>
+<colAssociation fkAssociation="045ADBE4-DCED-CB82-5B2C-2F7879DFFFA2" referredColumn="8B9791A3-EE3A-1C0D-CCE5-86ECEE2D7F50"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="13C185EF-0709-42A4-A42B-53814176CE76" name="TELEFONE_PK">
+<ind_PK_UK id="8843879B-83A4-34E6-ADF2-D331FB94FB3E" name="TELEFONE_PK">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>81985648-244F-9D3A-FA5C-8D74D08417B9</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="666AFCDD-CF2F-9877-D992-89F3A8D05762"/>
+<colUsage columnID="CDEF1707-F0A1-DF8B-0E0F-ACF6D48385A9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F803BF47-5BDE-BFE5-8431-BB75EDD4973B" name="TELEFONE_PESSOA_FK">
+<ind_PK_UK id="A9F93BF1-4EDE-671C-D383-318E7AB9FE69" name="TELEFONE_PESSOA_FK">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>C1C407F1-75AD-F6D5-857E-04EF60B0B5E8</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BA493307-F306-ABB1-743D-EF00A74FFAE2"/>
+<colUsage columnID="679E3302-62CD-4129-FE03-4DFB2BAC1A4C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

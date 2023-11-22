@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A51A397E-4C63-80C5-90F9-A2D917A7E87C" name="ENDERECO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="166F969F-6194-03E4-4997-764EF7109797" name="ENDERECO">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>A4B37ED9-6ECC-52C7-07AE-C5FC6177E350</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_ENDERECO" id="CC438B40-F92E-4CC6-0D5F-4F334FFC5B65">
+<Column name="COD_ENDERECO" id="CBCAE8D2-B9A4-7674-B675-1F6AC0BC9F0D">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>7D9DDABA-75EB-DC79-9CEE-26983EA6B72B</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CEP" id="C4A0D565-D302-715B-3E9F-7B19F085B833">
+<Column name="CEP" id="B1E2B7F0-35EC-8DCE-01DA-3CDA14EB13B3">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>433D870C-451B-2EAD-1146-64D424443F70</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>8,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="LOGRADOURO" id="B3C74D41-232A-66CE-EC09-21309169F137">
+<Column name="LOGRADOURO" id="7A1BE3BC-03A0-9062-F32F-A1C610320D58">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>60BA7C3C-DEF4-0257-7B82-729A657EE7D5</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -45,9 +45,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NUMERO" id="B9D26A48-FE33-3F61-632C-8D5DEC1304F4">
+<Column name="NUMERO" id="E79E8B42-52C0-995F-F55C-721164D1097F">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>496C2FA8-D673-3CF6-3FD4-5569739FAEF4</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -57,9 +57,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COMPLEMENTO" id="28FAA4E4-3F07-97F9-6253-00DE6BD6C7C0">
+<Column name="COMPLEMENTO" id="D845FAEE-1358-7902-3800-112436915B6E">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>A631930D-F388-1085-1163-2C98327315E5</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -70,9 +70,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PESSOA_COD_PESSOA" id="5AB954CD-9458-2AC8-7187-CC00B41931A4">
+<Column name="PESSOA_COD_PESSOA" id="F57C06D4-EA25-89EF-ECA9-DBB205D915DD">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>C6E0FA4C-4B6E-6CC5-61E7-2C30F67FC0FE</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -82,32 +82,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="ADC974A8-704D-CAB6-689F-6737AEB6F33E" referredColumn="9D86AB64-C85F-2738-C917-AE1C05934840"/>
+<colAssociation fkAssociation="27D5E23D-2F50-D1E1-DB42-B77AF1214957" referredColumn="8B9791A3-EE3A-1C0D-CCE5-86ECEE2D7F50"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B1434BA3-F4A4-2506-7CDE-BEC36405EF69" name="ENDERECO_PK">
+<ind_PK_UK id="6B8704DD-4813-8B7D-34A5-7E6FA5FE79E1" name="ENDERECO_PK">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>A503DE7C-E413-8D0E-1E80-961FEE073076</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CC438B40-F92E-4CC6-0D5F-4F334FFC5B65"/>
+<colUsage columnID="CBCAE8D2-B9A4-7674-B675-1F6AC0BC9F0D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="81F877C3-351E-5BF2-FA93-9ABC31D546BB" name="ENDERECO_PESSOA_FK">
+<ind_PK_UK id="21559AAE-7204-1AF7-66AD-3EAD05CE218D" name="ENDERECO_PESSOA_FK">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:56:34 UTC</createdTime>
+<createdTime>2023-11-22 00:22:35 UTC</createdTime>
 <generatorID>DF805A2C-F770-6776-A97F-75B6EB7BF25F</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5AB954CD-9458-2AC8-7187-CC00B41931A4"/>
+<colUsage columnID="F57C06D4-EA25-89EF-ECA9-DBB205D915DD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
