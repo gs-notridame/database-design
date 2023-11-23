@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DA3E638-6250-DCCD-C5DF-A119DD8CB63E" name="ENDERECO">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-23 01:46:48 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE00E176-1C13-8648-8DDA-CD5AE3706EF5" name="TELEFONEv1">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-23 22:55:45 UTC</createdTime>
 <ownerDesignName>NewLogicalModeler</ownerDesignName>
 <engineerTo>
 <item key="FF1A637B-DCBB-FB62-9597-61B717BEC469" value="true"/>
@@ -15,10 +15,11 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_ENDERECO" id="39918B08-BB7C-C95F-4B95-65418D048B08">
+<Attribute name="COD_TELEFONE" id="2F2787D3-0C2C-77A7-0002-6EF4D8BC85DF">
 <createdBy>matpi</createdBy>
-<createdTime>2023-11-23 23:15:34 UTC</createdTime>
+<createdTime>2023-11-23 22:55:45 UTC</createdTime>
 <ownerDesignName>NewLogicalModeler</ownerDesignName>
+<importedID>4779BC7E-F7F6-0319-A605-F4FE1844D152</importedID>
 <engineerTo>
 <item key="FF1A637B-DCBB-FB62-9597-61B717BEC469" value="true"/>
 </engineerTo>
@@ -27,37 +28,43 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Attribute_3" id="31C144C5-3D31-4750-284C-1A4CB00ECF17">
+<Attribute name="NUMERO" id="055C852B-64FC-4AF8-6EF9-BA5A0C6D78EA">
 <createdBy>matpi</createdBy>
-<createdTime>2023-11-23 23:15:35 UTC</createdTime>
+<createdTime>2023-11-23 22:55:45 UTC</createdTime>
 <ownerDesignName>NewLogicalModeler</ownerDesignName>
+<importedID>88AD380A-450D-7630-C1D7-A301DF96EF29</importedID>
 <engineerTo>
 <item key="FF1A637B-DCBB-FB62-9597-61B717BEC469" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Attribute_4" id="ED2CD909-6368-4ED8-CFBD-12B9BC8DD102">
+<Attribute name="DDD" id="A9878470-3D16-CC95-5CB9-B03CB5912D94">
 <createdBy>matpi</createdBy>
-<createdTime>2023-11-23 23:15:35 UTC</createdTime>
+<createdTime>2023-11-23 22:55:45 UTC</createdTime>
 <ownerDesignName>NewLogicalModeler</ownerDesignName>
+<importedID>FBF3C5D5-2C60-67B7-F159-8B0F4B74D7C8</importedID>
 <engineerTo>
 <item key="FF1A637B-DCBB-FB62-9597-61B717BEC469" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_PESSOA" id="6DBE4D6B-FC5E-781C-FF66-8C27455F9AD4">
+<Attribute name="COD_PESSOA" id="DFA9F794-77E1-9517-1FF8-9C8AD58B05A9">
 <createdBy>matpi</createdBy>
-<createdTime>2023-11-23 22:59:05 UTC</createdTime>
-<generatorID>8220D5A8-F191-4F63-5CE2-D9355E2A5719</generatorID>
+<createdTime>2023-11-23 22:55:45 UTC</createdTime>
 <ownerDesignName>NewLogicalModeler</ownerDesignName>
+<importedID>A2B7F670-4AC1-BCCA-58F5-035190D961B5</importedID>
 <engineerTo>
 <item key="FF1A637B-DCBB-FB62-9597-61B717BEC469" value="true"/>
 </engineerTo>
-<referedAttribute>38B78BE1-1DF4-6414-967A-C5382BB94722</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -65,16 +72,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A3E3A677-EFF5-1616-E1F5-C9C17A24A767" name="ENDERECO PK">
+<identifier id="53DEDF3C-EED6-DE23-1C56-AD2813079204" name="Phone PK">
 <createdBy>matpi</createdBy>
-<createdTime>2023-11-23 23:15:59 UTC</createdTime>
+<createdTime>2023-11-23 22:55:45 UTC</createdTime>
 <ownerDesignName>NewLogicalModeler</ownerDesignName>
 <engineerTo>
 <item key="FF1A637B-DCBB-FB62-9597-61B717BEC469" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>39918B08-BB7C-C95F-4B95-65418D048B08</attributeRef>
+<attributeRef>2F2787D3-0C2C-77A7-0002-6EF4D8BC85DF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

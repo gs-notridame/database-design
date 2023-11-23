@@ -14,4 +14,20 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_PF" id="0EE754F2-C311-964C-1F95-DEC3201C5080">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-23 23:07:14 UTC</createdTime>
+<generatorID>71EED7AD-853C-5260-5E23-77D59382A926</generatorID>
+<ownerDesignName>NewLogicalModeler</ownerDesignName>
+<engineerTo>
+<item key="FF1A637B-DCBB-FB62-9597-61B717BEC469" value="true"/>
+</engineerTo>
+<referedAttribute>20697040-9B5A-EACD-11CA-DF751F59405E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

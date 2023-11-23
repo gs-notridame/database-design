@@ -14,4 +14,73 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_TELEFONE" id="3044D05A-7CFE-E2CB-5EA3-94AD2EBE5F14">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-23 22:56:29 UTC</createdTime>
+<ownerDesignName>NewLogicalModeler</ownerDesignName>
+<engineerTo>
+<item key="FF1A637B-DCBB-FB62-9597-61B717BEC469" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO" id="895FF927-2854-EAF9-C8D2-F9D42F25F6A3">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-23 22:56:30 UTC</createdTime>
+<ownerDesignName>NewLogicalModeler</ownerDesignName>
+<engineerTo>
+<item key="FF1A637B-DCBB-FB62-9597-61B717BEC469" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DDD" id="0E9AA463-7890-81E5-1F5C-99B37DB93ECC">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-23 22:56:32 UTC</createdTime>
+<ownerDesignName>NewLogicalModeler</ownerDesignName>
+<engineerTo>
+<item key="FF1A637B-DCBB-FB62-9597-61B717BEC469" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PESSOA" id="C38913D6-342F-4203-4AC2-2069798DE00E">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-23 22:59:05 UTC</createdTime>
+<generatorID>55BBE23E-E054-3271-74CA-A4D1B242EC5A</generatorID>
+<ownerDesignName>NewLogicalModeler</ownerDesignName>
+<engineerTo>
+<item key="FF1A637B-DCBB-FB62-9597-61B717BEC469" value="true"/>
+</engineerTo>
+<referedAttribute>38B78BE1-1DF4-6414-967A-C5382BB94722</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E90A7FC6-53B3-3FB0-5528-71E1C8B37A10" name="TELEFONE PK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-23 22:57:53 UTC</createdTime>
+<ownerDesignName>NewLogicalModeler</ownerDesignName>
+<engineerTo>
+<item key="FF1A637B-DCBB-FB62-9597-61B717BEC469" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3044D05A-7CFE-E2CB-5EA3-94AD2EBE5F14</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
