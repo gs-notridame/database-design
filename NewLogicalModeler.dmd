@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="NewLogicalModeler" id="C8CA339A-0140-0536-6A0C-7B1298C71AB7" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-23 01:38:46 UTC</createdTime>
+<ownerDesignName>NewLogicalModeler</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C8CA339A-0140-0536-6A0C-7B1298C71AB7</designId>
+</OSDM_Design>
