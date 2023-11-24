@@ -4,7 +4,7 @@
 <createdTime>2023-11-21 23:40:25 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,22 +20,8 @@
 <createdTime>2023-11-21 23:40:40 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_PESSOA" id="9078834C-8182-EB71-88DB-FFBEF948DE3E">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:42:29 UTC</createdTime>
-<generatorID>BC4E34D7-8974-D929-615A-7E4EE77E1B09</generatorID>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
-</engineerTo>
-<referedAttribute>DE7C6B18-EE44-9F08-D7C8-85F702CD34D6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -46,7 +32,7 @@
 <createdTime>2023-11-21 23:47:01 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +46,7 @@
 <createdTime>2023-11-21 23:47:12 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,7 +60,7 @@
 <createdTime>2023-11-21 23:47:21 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -88,7 +74,7 @@
 <createdTime>2023-11-21 23:47:38 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -102,7 +88,7 @@
 <createdTime>2023-11-21 23:50:01 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -116,7 +102,7 @@
 <createdTime>2023-11-21 23:54:19 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -131,7 +117,7 @@
 <createdTime>2023-11-21 23:40:51 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="6CCCE8C1-0CA0-FA7D-943B-117901E6B707" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

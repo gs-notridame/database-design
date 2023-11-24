@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04E96B87-DA09-0732-2E85-0358C8066FFB" name="TELEFONE">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:16:07 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06FECAB1-A925-3C88-628E-127A193D3BD8" name="ESPECIALIDADE">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:20:06 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
@@ -15,9 +15,23 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_TELEFONE" id="0AB21924-E2B8-5E05-10D1-FEF612CC2D59">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:16:11 UTC</createdTime>
+<Attribute name="COD_MEDICO" id="36861E1D-9E87-C064-16D7-85A892885479">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:27:33 UTC</createdTime>
+<generatorID>19F4117D-3FDE-A6D6-AEBD-2A3D466666E4</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<referedAttribute>571A5FE2-BB95-7087-D245-FB85C5E7033E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_ESPECIALIDADE" id="EF673317-5009-6266-1C81-CC4F3B545220">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:29:04 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
@@ -27,9 +41,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NUMERO" id="D605857B-9846-0A61-BE5A-71C867203A82">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:16:22 UTC</createdTime>
+<Attribute name="ESPECIALIDADE" id="31E6C27A-25E1-F997-AEA0-F0967DD6A593">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:29:12 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
@@ -37,48 +51,22 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DDD" id="8BF30724-2025-A339-5EF9-0B6FA1AE50F6">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:16:33 UTC</createdTime>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_PESSOA" id="DC252B00-4B83-BA7B-C30B-9B50D8EE8FCC">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:18:13 UTC</createdTime>
-<generatorID>C1C407F1-75AD-F6D5-857E-04EF60B0B5E8</generatorID>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
-</engineerTo>
-<referedAttribute>DE7C6B18-EE44-9F08-D7C8-85F702CD34D6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="81985648-244F-9D3A-FA5C-8D74D08417B9" name="TELEFONE PK">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:16:21 UTC</createdTime>
+<identifier id="7FD12AF8-DF38-5A78-3A32-908F8E84B2E9" name="ESPECIALIDADE PK">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:29:35 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>0AB21924-E2B8-5E05-10D1-FEF612CC2D59</attributeRef>
+<attributeRef>EF673317-5009-6266-1C81-CC4F3B545220</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

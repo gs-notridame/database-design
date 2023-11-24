@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04E96B87-DA09-0732-2E85-0358C8066FFB" name="TELEFONE">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:16:07 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00A86A7D-827D-2692-47F7-227DEBF15C60" name="PACIENTE">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:19:47 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_TELEFONE" id="0AB21924-E2B8-5E05-10D1-FEF612CC2D59">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:16:11 UTC</createdTime>
+<Attribute name="COD_PACIENTE" id="D5E5FA69-E21F-6AD3-B39D-AC76826F36BF">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:27:58 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NUMERO" id="D605857B-9846-0A61-BE5A-71C867203A82">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:16:22 UTC</createdTime>
+<Attribute name="HISTORICO" id="0C58C3C4-4FBF-8DFA-E012-583B6148874B">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:27:59 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
@@ -37,31 +37,18 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DDD" id="8BF30724-2025-A339-5EF9-0B6FA1AE50F6">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:16:33 UTC</createdTime>
+<Attribute name="NUM_SEGURO_SAUDE" id="4DDA5B1F-9790-A786-6947-E0B76F4042E2">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:27:59 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_PESSOA" id="DC252B00-4B83-BA7B-C30B-9B50D8EE8FCC">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:18:13 UTC</createdTime>
-<generatorID>C1C407F1-75AD-F6D5-857E-04EF60B0B5E8</generatorID>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
-</engineerTo>
-<referedAttribute>DE7C6B18-EE44-9F08-D7C8-85F702CD34D6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -69,16 +56,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="81985648-244F-9D3A-FA5C-8D74D08417B9" name="TELEFONE PK">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:16:21 UTC</createdTime>
+<identifier id="67D72A76-D2C2-2A2C-3008-1AD949B6EEF9" name="PACIENTE PK">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:28:22 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>0AB21924-E2B8-5E05-10D1-FEF612CC2D59</attributeRef>
+<attributeRef>D5E5FA69-E21F-6AD3-B39D-AC76826F36BF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CDF82BD-9104-DBD9-50C6-64F87A5BC497" name="BAIRRO">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:34:53 UTC</createdTime>
+<generatorID>43BBF320-6BE0-15E0-A548-A7D7D203A0B0</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_BAIRRO" id="ACB28F5D-EFDC-2588-AF67-5AF64061EBC4">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:34:53 UTC</createdTime>
+<generatorID>E2C949FA-1A9C-C086-3D7B-6161D2E38C9C</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="DC1ED968-EFDE-DC3A-9702-02821C6E740C">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:34:53 UTC</createdTime>
+<generatorID>E56FF9DA-B0B7-4D68-1462-BD3F84B2B2F3</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE_COD_CIDADE" id="55572AB1-2246-F84C-0707-856D425FF546">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:34:53 UTC</createdTime>
+<generatorID>C2CC8AE9-D5F0-0FD3-0905-A9D68990C04B</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F073A16D-742F-0FD2-F8A0-8AFC105FA714" referredColumn="E3AC3499-0B2D-38C7-0864-E9E7C555AB6B"/>
+</associations>
+</Column>
+<Column name="ENDERECO_COD_ENDERECO" id="692C195C-C6EF-48C2-480E-0B13D860A754">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:34:53 UTC</createdTime>
+<generatorID>464A2A58-6130-2ACB-2397-4F3AB36840C6</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEEF1277-3019-8D90-3FC7-69167F02385A" referredColumn="120764C0-6EA4-EE07-8510-5D229963C4C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F735344-D5DE-8527-AE98-AF75FF81B288" name="BAIRRO_PK">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:34:53 UTC</createdTime>
+<generatorID>0DC30ABE-7324-EFA7-FDCC-5385D9A64B10</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACB28F5D-EFDC-2588-AF67-5AF64061EBC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="436C085A-3A5B-7EA6-C542-8554DD32E4FA" name="BAIRRO_ENDERECO_FK">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:34:53 UTC</createdTime>
+<generatorID>D6AC6C88-03C4-02C9-543F-484520DD4D84</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="692C195C-C6EF-48C2-480E-0B13D860A754"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F955E28B-7F91-90AC-B5EA-4FBAED9CF4BE" name="BAIRRO_CIDADE_FK">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:34:53 UTC</createdTime>
+<generatorID>1DC06CDE-C814-9F3A-EAA9-FFFDD05E351F</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55572AB1-2246-F84C-0707-856D425FF546"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

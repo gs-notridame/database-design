@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9AB1AA3B-7CB8-AA2F-D90A-0BA9D157F1C2" name="GENERO">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:19:37 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_PESSOA" id="9FC3735F-A069-E557-5FC1-2204AF9013E9">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:22:09 UTC</createdTime>
+<generatorID>6CC13E9D-9952-814F-8B76-46D96E7B85E8</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<referedAttribute>DE7C6B18-EE44-9F08-D7C8-85F702CD34D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENERO" id="49A3D26A-6EAF-A894-D9FF-17F1B5C7364C">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:24:27 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

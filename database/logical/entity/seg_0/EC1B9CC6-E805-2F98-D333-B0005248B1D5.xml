@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4B37ED9-6ECC-52C7-07AE-C5FC6177E350" name="ENDERECO">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:07:02 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC1B9CC6-E805-2F98-D333-B0005248B1D5" name="AGENDAMENTO">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:19:58 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
@@ -15,9 +15,23 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_ENDERECO" id="7D9DDABA-75EB-DC79-9CEE-26983EA6B72B">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:07:06 UTC</createdTime>
+<Attribute name="COD_PACIENTE" id="DF09028B-7EB8-6E93-8E2E-FE160BD0CA08">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:28:36 UTC</createdTime>
+<generatorID>A5BBBB63-4344-5881-3C71-CB23E8080436</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<referedAttribute>D5E5FA69-E21F-6AD3-B39D-AC76826F36BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_AGENDAMENTO" id="073DADA3-594C-EDDF-FC9A-4A05719CFCA6">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:33:13 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
@@ -27,9 +41,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CEP" id="433D870C-451B-2EAD-1146-64D424443F70">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:07:20 UTC</createdTime>
+<Attribute name="DATA_AGENDAMENTO" id="052DD785-66C6-C312-6041-D34A603366B2">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:33:13 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
@@ -37,12 +51,39 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LOGRADOURO" id="60BA7C3C-DEF4-0257-7B82-729A657EE7D5">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:07:46 UTC</createdTime>
+<Attribute name="HORA_AGENDAMENTO" id="974A3BFE-13A3-CF9B-5BF8-389E173635AC">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:33:14 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS" id="6285A811-7436-1195-100F-EC9824134204">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:33:14 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OBSERVACOES" id="A7A70CBE-E336-6FD3-93FE-8CA9D227182C">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:33:14 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
@@ -53,60 +94,19 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NUMERO" id="496C2FA8-D673-3CF6-3FD4-5569739FAEF4">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:08:49 UTC</createdTime>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COMPLEMENTO" id="A631930D-F388-1085-1163-2C98327315E5">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:09:41 UTC</createdTime>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_PESSOA" id="C6E0FA4C-4B6E-6CC5-61E7-2C30F67FC0FE">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:12:52 UTC</createdTime>
-<generatorID>DF805A2C-F770-6776-A97F-75B6EB7BF25F</generatorID>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
-</engineerTo>
-<referedAttribute>DE7C6B18-EE44-9F08-D7C8-85F702CD34D6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A503DE7C-E413-8D0E-1E80-961FEE073076" name="ENDERECO PK">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:07:19 UTC</createdTime>
+<identifier id="0E440FD6-2B48-5868-322A-DBC419429BE4" name="AGENDAMENTO PK">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:34:08 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7D9DDABA-75EB-DC79-9CEE-26983EA6B72B</attributeRef>
+<attributeRef>073DADA3-594C-EDDF-FC9A-4A05719CFCA6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

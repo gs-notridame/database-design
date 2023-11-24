@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F2C161D7-320B-8218-9CB1-82982D259283" containerWithKeyObject="09109B76-259C-2823-33D4-1DAC9FDDAC3C" localFKIndex="2E4D51FC-0D83-CAFD-EDF3-09C0A28214B2" name="TRIAGEM_PACIENTE_FK">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:34:53 UTC</createdTime>
+<generatorID>20838D4A-E478-70D7-6A04-A52CEAB23726</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<referredTableLongName>PACIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C9573B94-9488-47EC-C41D-713CC7B89B9C</referredTableID>
+<keyObject>95C9ABF7-BE43-D227-AB99-A26F6673C4A4</keyObject>
+<referredKeyID>95C9ABF7-BE43-D227-AB99-A26F6673C4A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_PACIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

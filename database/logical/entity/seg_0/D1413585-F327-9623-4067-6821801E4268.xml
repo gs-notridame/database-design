@@ -4,7 +4,7 @@
 <createdTime>2023-11-21 23:24:32 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,22 +20,8 @@
 <createdTime>2023-11-21 23:24:45 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_QUESTIONARIO" id="15C5B163-74C7-D54C-23EE-18BBC79C2714">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:42:34 UTC</createdTime>
-<generatorID>29AA0982-B200-5EEA-1FE0-3AE2865AA749</generatorID>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
-</engineerTo>
-<referedAttribute>1A388BE6-F5DE-2075-7F09-05486796DCE1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -46,7 +32,7 @@
 <createdTime>2023-11-21 23:51:21 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -59,7 +45,7 @@
 <createdTime>2023-11-21 23:52:30 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,7 +59,7 @@
 <createdTime>2023-11-21 23:52:39 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -87,7 +73,7 @@
 <createdTime>2023-11-21 23:55:34 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -96,6 +82,20 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_TRIAGEM" id="A8128718-2F6E-6993-AF60-035CD03C31B7">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:27:00 UTC</createdTime>
+<generatorID>CE686D74-C49C-FAF6-6E29-A0FA725AD98F</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<referedAttribute>4B444807-5BAA-D2C2-1CEB-2B84897F5C33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F3CAF66B-7571-4F11-CB82-4A6052376928" name="DIAGNOSTICO PK">
@@ -103,7 +103,7 @@
 <createdTime>2023-11-21 23:25:00 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
