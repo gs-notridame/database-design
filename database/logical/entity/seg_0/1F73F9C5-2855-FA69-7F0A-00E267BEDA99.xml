@@ -41,5 +41,19 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_GENERO" id="3CD3A051-CE41-3F0F-D6D2-CAE45D889197">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-29 06:07:46 UTC</createdTime>
+<generatorID>7EAA318D-A632-2173-273D-189AC691E13E</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<referedAttribute>790843CC-A3DE-3248-1068-0E46B9AAC4B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>
