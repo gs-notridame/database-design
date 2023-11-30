@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE2C509C-2773-CDBF-4454-66A1922D69CE" name="AGENDAMENTO">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>EC1B9CC6-E805-2F98-D333-B0005248B1D5</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_AGENDAMENTO" id="A2133AED-9324-829D-5408-5EDD17EB14D5">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>073DADA3-594C-EDDF-FC9A-4A05719CFCA6</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_AGENDAMENTO" id="805DB412-6E7F-62F3-084B-AE60382002D9">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>052DD785-66C6-C312-6041-D34A603366B2</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_AGENDAMENTO" id="242C40E1-8150-2BAB-DA9A-B1C730629D12">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>974A3BFE-13A3-CF9B-5BF8-389E173635AC</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="A1B5AC24-FEE5-7997-50EC-69D9BA2AF7CA">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>6285A811-7436-1195-100F-EC9824134204</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACOES" id="E7191A85-1ECA-FC09-34A0-2FC755195BA3">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>A7A70CBE-E336-6FD3-93FE-8CA9D227182C</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGENDA_MEDICO_COD_AGENDA" id="4500DB86-44DA-E224-D7E6-329745EF0266">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>268F06CE-F79A-B0D7-8158-D907DB4127F2</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6417AF70-5CB1-9BE4-DA96-E67FB62F3150" referredColumn="B273749A-0E83-8544-5BBE-FB0F648E2505"/>
+</associations>
+</Column>
+<Column name="PACIENTE_COD_PACIENTE" id="14E7ECCE-DD0A-DF59-8C58-8AF281409B4A">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>041CB39C-27CB-50B7-9B2D-9EEA15228B42</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BEF94E9-8C08-40D4-2DC2-531F89529347" referredColumn="324AE2B9-3771-3057-157C-6A8C5A09AB3A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="302468AF-B2EA-9203-D652-E9FF91744ABC" name="AGENDAMENTO_PK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>0E440FD6-2B48-5868-322A-DBC419429BE4</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2133AED-9324-829D-5408-5EDD17EB14D5"/>
+<colUsage columnID="4500DB86-44DA-E224-D7E6-329745EF0266"/>
+<colUsage columnID="14E7ECCE-DD0A-DF59-8C58-8AF281409B4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A263073-6AFA-5A15-2199-A1F147816E92" name="AGENDAMENTO_AGENDA_MEDICO_FK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>B8AFEFBA-1357-B50B-3721-26ECD1975F26</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4500DB86-44DA-E224-D7E6-329745EF0266"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9278A3A4-7AF9-B8B1-529D-3377ACB48BBE" name="AGENDAMENTO_PACIENTE_FK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>BE6FF75A-09D0-6258-006C-063655A43627</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14E7ECCE-DD0A-DF59-8C58-8AF281409B4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="868E9ED3-BD9D-AF09-86EB-C327B6786E40" name="PESSOA">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>D52931D0-F0A1-682E-9615-6F14A9150F44</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PESSOA" id="98307684-9B46-9FE1-8BCB-8428DBE7B496">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>DE7C6B18-EE44-9F08-D7C8-85F702CD34D6</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="FA1929E7-8C72-317B-5979-395E0B36F655">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>EA438513-E59F-B83D-4A7B-131D93AB844D</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="60EB9804-A055-C493-6A83-A7E3215FA93A">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>12E42D75-6132-50F5-7BAF-4E8DCAFF2F99</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOFT_DELETE" id="13CBFE8D-AF4F-0F87-DA1E-1058483AB691">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>235148F0-558B-F140-4C9A-12FFEAA2C7CD</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO" id="49EBE7ED-4C59-DC2A-502C-063D76317AA3">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>407A4252-2C12-0253-9219-6290EF4E12F8</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENHA" id="0CEF860C-0BD0-9ECA-18DB-5C04E304CB26">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>E1A8AD2C-D690-4003-B29D-C8C8AEA2FCD1</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESSOA_FISICA_CPF" id="0268342A-38AB-BC16-CB0F-8C78EC39EF60">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>CB8636E9-91A7-3D30-C2FD-19EC7F858457</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31F94404-EB82-155B-A73F-203EC8618351" referredColumn="42EEFB6C-4790-003D-8D12-A98370FBF6F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCA39391-837E-18B7-54CD-551E89EE923A" name="PESSOA_PK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>5C60AB6E-B6B1-02C6-0031-1F18EF15B43A</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98307684-9B46-9FE1-8BCB-8428DBE7B496"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C8289CF-A8E9-BC48-E629-C5B64FADF07C" name="PESSOA__IDX">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5BA52756-B0C1-4B17-8EBB-9B0FBC39F354</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0268342A-38AB-BC16-CB0F-8C78EC39EF60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94C976A8-7CF2-5943-523E-906477A7ACB9" name="PESSOA_PESSOA_FISICA_FK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>5BA52756-B0C1-4B17-8EBB-9B0FBC39F354</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0268342A-38AB-BC16-CB0F-8C78EC39EF60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

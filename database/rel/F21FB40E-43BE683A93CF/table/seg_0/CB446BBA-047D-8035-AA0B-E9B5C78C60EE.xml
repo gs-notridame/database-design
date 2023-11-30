@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB446BBA-047D-8035-AA0B-E9B5C78C60EE" name="TELEFONE">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>04E96B87-DA09-0732-2E85-0358C8066FFB</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_TELEFONE" id="8B24B606-DF82-0CB0-5339-309B955FDA7B">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>0AB21924-E2B8-5E05-10D1-FEF612CC2D59</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO" id="D5FEB7CB-13EB-D3E8-6679-A2FB55609728">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>D605857B-9846-0A61-BE5A-71C867203A82</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DDD" id="355F8D55-C363-CB40-A0A3-C97A80AF822E">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>8BF30724-2025-A339-5EF9-0B6FA1AE50F6</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESSOA_COD_PESSOA" id="837F9F87-5A7D-61C1-D634-CA5815E6509E">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>DC252B00-4B83-BA7B-C30B-9B50D8EE8FCC</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87F59C09-C528-CB95-D1C9-A5E91B25EA17" referredColumn="98307684-9B46-9FE1-8BCB-8428DBE7B496"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87031261-759A-CBAC-B8AB-BC80CB128839" name="TELEFONE_PK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>81985648-244F-9D3A-FA5C-8D74D08417B9</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B24B606-DF82-0CB0-5339-309B955FDA7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31A0EA10-A451-2FCC-C3D2-941EBE18D139" name="TELEFONE_PESSOA_FK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>C1C407F1-75AD-F6D5-857E-04EF60B0B5E8</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="837F9F87-5A7D-61C1-D634-CA5815E6509E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

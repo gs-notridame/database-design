@@ -35,7 +35,6 @@
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -56,4 +55,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40C7837A-7F97-E926-0041-03F2E09CF9CD" name="PESSOA_FISICA PK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:00:47 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>747918B8-E293-6587-4EE9-09F06F75CE1E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -15,20 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_MEDICO" id="36861E1D-9E87-C064-16D7-85A892885479">
-<createdBy>Meu Computador</createdBy>
-<createdTime>2023-11-24 16:27:33 UTC</createdTime>
-<generatorID>19F4117D-3FDE-A6D6-AEBD-2A3D466666E4</generatorID>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
-</engineerTo>
-<referedAttribute>571A5FE2-BB95-7087-D245-FB85C5E7033E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="COD_ESPECIALIDADE" id="EF673317-5009-6266-1C81-CC4F3B545220">
 <createdBy>Meu Computador</createdBy>
 <createdTime>2023-11-24 16:29:04 UTC</createdTime>
@@ -55,14 +41,29 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_MEDICO" id="36861E1D-9E87-C064-16D7-85A892885479">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:27:33 UTC</createdTime>
+<generatorID>19F4117D-3FDE-A6D6-AEBD-2A3D466666E4</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<referedAttribute>571A5FE2-BB95-7087-D245-FB85C5E7033E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7FD12AF8-DF38-5A78-3A32-908F8E84B2E9" name="ESPECIALIDADE PK">
 <createdBy>Meu Computador</createdBy>
 <createdTime>2023-11-24 16:29:35 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

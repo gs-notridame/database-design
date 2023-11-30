@@ -4,7 +4,7 @@
 <createdTime>2023-11-21 23:41:07 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,22 +20,8 @@
 <createdTime>2023-11-21 23:41:16 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="COD_DIAGNOSTICO" id="A4E4C24C-3120-FBB0-8C52-BB098B2EF470">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-11-21 23:42:20 UTC</createdTime>
-<generatorID>E78FF7FA-0D5F-A805-B8DE-2FB4242956C9</generatorID>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
-</engineerTo>
-<referedAttribute>1E797C23-3820-1E4E-4AC5-35A7BB073867</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -46,7 +32,7 @@
 <createdTime>2023-11-21 23:53:25 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -55,14 +41,29 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_DIAGNOSTICO" id="A4E4C24C-3120-FBB0-8C52-BB098B2EF470">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-21 23:42:20 UTC</createdTime>
+<generatorID>E78FF7FA-0D5F-A805-B8DE-2FB4242956C9</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<referedAttribute>1E797C23-3820-1E4E-4AC5-35A7BB073867</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3B50DE71-7DC2-8E6F-620B-D29E39C4204A" name="RECOMENDACAO PK">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2023-11-21 23:41:26 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5D0BB96E-7B83-1D59-3F07-05B807D854B3" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -15,20 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_QUESTIONARIO" id="0D0D8AD8-1B8F-82EC-E632-3DD9E475F012">
-<createdBy>Meu Computador</createdBy>
-<createdTime>2023-11-24 16:23:55 UTC</createdTime>
-<generatorID>ED3C70A9-0C1A-66F8-5F19-C03FF2867BC4</generatorID>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
-</engineerTo>
-<referedAttribute>1A388BE6-F5DE-2075-7F09-05486796DCE1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="COD_TRIAGEM" id="4B444807-5BAA-D2C2-1CEB-2B84897F5C33">
 <createdBy>Meu Computador</createdBy>
 <createdTime>2023-11-24 16:26:06 UTC</createdTime>
@@ -108,14 +94,29 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_QUESTIONARIO" id="0D0D8AD8-1B8F-82EC-E632-3DD9E475F012">
+<createdBy>Meu Computador</createdBy>
+<createdTime>2023-11-24 16:23:55 UTC</createdTime>
+<generatorID>ED3C70A9-0C1A-66F8-5F19-C03FF2867BC4</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<referedAttribute>1A388BE6-F5DE-2075-7F09-05486796DCE1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="99160958-7F38-6D16-3A5B-FFF4BE865D79" name="TRIAGEM PK">
 <createdBy>Meu Computador</createdBy>
 <createdTime>2023-11-24 16:27:00 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

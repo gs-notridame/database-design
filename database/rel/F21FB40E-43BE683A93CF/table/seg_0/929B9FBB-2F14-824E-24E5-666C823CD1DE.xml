@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="929B9FBB-2F14-824E-24E5-666C823CD1DE" name="TRIAGEM">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>50C6FE04-57CE-DD1F-EAE4-2365BD5F5D4E</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_TRIAGEM" id="95D7317C-E5FA-EDC5-2B52-3D72976692AC">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>4B444807-5BAA-D2C2-1CEB-2B84897F5C33</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INICIO" id="B7A216F7-F653-6864-A0A4-007C43344C39">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>35C4272C-4721-E283-C9BB-86A9F4563460</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIM" id="5A02D032-BF9A-8E38-CCE3-834AF4DCC0E3">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>C87D1C55-A998-2972-293E-2CDFF284EA64</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACAO" id="830571AA-530E-A731-2F78-B5532974525D">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>FA056354-1B25-B9ED-E35A-9FDAC726962E</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESPOSTAS" id="A8518BF6-D1C2-AB01-0178-09D8836AA74A">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>07C8BB9D-A368-E4F8-E499-1774CA4AF39D</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PACIENTE_COD_PACIENTE" id="AE506F65-9FBE-F77A-E9D0-2AEF3CD34871">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>51D3C839-B4BF-83ED-9BF8-A644F50188F0</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="375002DF-0034-80CE-D758-D3F1E5598400" referredColumn="324AE2B9-3771-3057-157C-6A8C5A09AB3A"/>
+</associations>
+</Column>
+<Column name="QUESTIONARIO_COD_QUESTIONARIO" id="544A1A35-FBFE-5166-70D1-E0ACFC1C6036">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>0D0D8AD8-1B8F-82EC-E632-3DD9E475F012</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="215DB304-9F3B-F293-3798-F58B8CFFF5F4" referredColumn="FABDD970-E27D-C7BD-1509-A825FFF8C55F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="273533F4-267B-6E18-6535-C71D2039D417" name="TRIAGEM_PK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>99160958-7F38-6D16-3A5B-FFF4BE865D79</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95D7317C-E5FA-EDC5-2B52-3D72976692AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3AC6A1E-B1B1-B672-5489-36A7BF19B971" name="TRIAGEM__IDX">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>ED3C70A9-0C1A-66F8-5F19-C03FF2867BC4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="544A1A35-FBFE-5166-70D1-E0ACFC1C6036"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="295050BA-D307-9718-D60F-6512C345010A" name="TRIAGEM_PACIENTE_FK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>20838D4A-E478-70D7-6A04-A52CEAB23726</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE506F65-9FBE-F77A-E9D0-2AEF3CD34871"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A8E223E-FD6D-6B47-8CF6-25D9FCC6F43E" name="TRIAGEM_QUESTIONARIO_FK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>ED3C70A9-0C1A-66F8-5F19-C03FF2867BC4</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="544A1A35-FBFE-5166-70D1-E0ACFC1C6036"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

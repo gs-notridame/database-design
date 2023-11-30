@@ -95,14 +95,29 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_BAIRRO" id="629C61F5-3CC5-0FF0-0CB2-0E3666A5E715">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 15:47:29 UTC</createdTime>
+<generatorID>E1428753-DD10-4912-BC1C-14F38A0E2A90</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<referedAttribute>E2C949FA-1A9C-C086-3D7B-6161D2E38C9C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A503DE7C-E413-8D0E-1E80-961FEE073076" name="ENDERECO PK">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2023-11-21 23:07:19 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

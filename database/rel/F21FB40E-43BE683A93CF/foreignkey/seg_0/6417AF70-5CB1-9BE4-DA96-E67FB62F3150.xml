@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6417AF70-5CB1-9BE4-DA96-E67FB62F3150" containerWithKeyObject="BE2C509C-2773-CDBF-4454-66A1922D69CE" localFKIndex="4A263073-6AFA-5A15-2199-A1F147816E92" name="AGENDAMENTO_AGENDA_MEDICO_FK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>B8AFEFBA-1357-B50B-3721-26ECD1975F26</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<referredTableLongName>AGENDA_MEDICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C6C24EE2-AD28-1F49-7BF4-16460D54D4C3</referredTableID>
+<keyObject>895517A2-25CA-F2DF-B54B-C717527A02AF</keyObject>
+<referredKeyID>895517A2-25CA-F2DF-B54B-C717527A02AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_AGENDA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

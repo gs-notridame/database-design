@@ -15,20 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_PACIENTE" id="DF09028B-7EB8-6E93-8E2E-FE160BD0CA08">
-<createdBy>Meu Computador</createdBy>
-<createdTime>2023-11-24 16:28:36 UTC</createdTime>
-<generatorID>A5BBBB63-4344-5881-3C71-CB23E8080436</generatorID>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
-</engineerTo>
-<referedAttribute>D5E5FA69-E21F-6AD3-B39D-AC76826F36BF</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="COD_AGENDAMENTO" id="073DADA3-594C-EDDF-FC9A-4A05719CFCA6">
 <createdBy>Meu Computador</createdBy>
 <createdTime>2023-11-24 16:33:13 UTC</createdTime>
@@ -95,6 +81,34 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_AGENDA" id="268F06CE-F79A-B0D7-8158-D907DB4127F2">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:03:28 UTC</createdTime>
+<generatorID>B8AFEFBA-1357-B50B-3721-26ECD1975F26</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<referedAttribute>210093E6-26CA-CEFE-0A6A-CA206F82BEDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PACIENTE" id="041CB39C-27CB-50B7-9B2D-9EEA15228B42">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:03:44 UTC</createdTime>
+<generatorID>BE6FF75A-09D0-6258-006C-063655A43627</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<referedAttribute>D5E5FA69-E21F-6AD3-B39D-AC76826F36BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0E440FD6-2B48-5868-322A-DBC419429BE4" name="AGENDAMENTO PK">
@@ -107,6 +121,8 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>073DADA3-594C-EDDF-FC9A-4A05719CFCA6</attributeRef>
+<attributeRef>268F06CE-F79A-B0D7-8158-D907DB4127F2</attributeRef>
+<attributeRef>041CB39C-27CB-50B7-9B2D-9EEA15228B42</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

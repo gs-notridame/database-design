@@ -15,20 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_MEDICO" id="85FFCBFB-7BC1-939A-D667-20C18FD3AE0F">
-<createdBy>Meu Computador</createdBy>
-<createdTime>2023-11-24 16:27:33 UTC</createdTime>
-<generatorID>2750F36F-8550-8781-9926-CBA89A6F33AE</generatorID>
-<ownerDesignName>database</ownerDesignName>
-<engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
-</engineerTo>
-<referedAttribute>571A5FE2-BB95-7087-D245-FB85C5E7033E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="COD_AGENDA" id="210093E6-26CA-CEFE-0A6A-CA206F82BEDA">
 <createdBy>Meu Computador</createdBy>
 <createdTime>2023-11-24 16:31:23 UTC</createdTime>
@@ -64,7 +50,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="HORA_TERMINO_DISPONIBILIDADE" id="22AF7147-F0DE-862B-6082-68B8E9176D5B">
@@ -77,7 +63,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="STATUS_DISPONIBILIDADE" id="46F12651-2B1C-9957-BB64-56821758DDA3">
@@ -107,15 +93,15 @@
 <logicalDatatype>LOGDT014</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_AGENDAMENTO" id="B5BD29AA-9E9E-A467-F8D7-2F345233CE57">
+<Attribute name="COD_MEDICO" id="85FFCBFB-7BC1-939A-D667-20C18FD3AE0F">
 <createdBy>Meu Computador</createdBy>
-<createdTime>2023-11-24 16:34:09 UTC</createdTime>
-<generatorID>842AC2DD-F901-9494-266F-309E6A7D20BB</generatorID>
+<createdTime>2023-11-24 16:27:33 UTC</createdTime>
+<generatorID>2750F36F-8550-8781-9926-CBA89A6F33AE</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
 <item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
 </engineerTo>
-<referedAttribute>073DADA3-594C-EDDF-FC9A-4A05719CFCA6</referedAttribute>
+<referedAttribute>571A5FE2-BB95-7087-D245-FB85C5E7033E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -127,8 +113,9 @@
 <createdBy>Meu Computador</createdBy>
 <createdTime>2023-11-24 16:32:36 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

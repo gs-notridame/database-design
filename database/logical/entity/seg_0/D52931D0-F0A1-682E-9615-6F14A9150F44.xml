@@ -97,6 +97,20 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CPF" id="CB8636E9-91A7-3D30-C2FD-19EC7F858457">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:00:49 UTC</createdTime>
+<generatorID>5BA52756-B0C1-4B17-8EBB-9B0FBC39F354</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<referedAttribute>747918B8-E293-6587-4EE9-09F06F75CE1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5C60AB6E-B6B1-02C6-0031-1F18EF15B43A" name="PESSOA PK">

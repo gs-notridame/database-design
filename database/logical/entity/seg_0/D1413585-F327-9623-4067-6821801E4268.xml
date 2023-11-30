@@ -96,14 +96,29 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="COD_MEDICO" id="FFF367E0-9C4D-6CD6-7F6E-FF315BB41D02">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:05:08 UTC</createdTime>
+<generatorID>FB84CABD-CEF6-E5D1-934F-8A700ED93339</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<engineerTo>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+</engineerTo>
+<referedAttribute>571A5FE2-BB95-7087-D245-FB85C5E7033E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F3CAF66B-7571-4F11-CB82-4A6052376928" name="DIAGNOSTICO PK">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2023-11-21 23:25:00 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

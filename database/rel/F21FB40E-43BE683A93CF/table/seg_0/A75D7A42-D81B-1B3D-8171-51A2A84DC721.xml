@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A75D7A42-D81B-1B3D-8171-51A2A84DC721" name="PACIENTE">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>00A86A7D-827D-2692-47F7-227DEBF15C60</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PACIENTE" id="324AE2B9-3771-3057-157C-6A8C5A09AB3A">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>D5E5FA69-E21F-6AD3-B39D-AC76826F36BF</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HISTORICO" id="9C7CD48E-4835-5029-3DCB-A767F4EB5891">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>0C58C3C4-4FBF-8DFA-E012-583B6148874B</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_SEGURO_SAUDE" id="30FBD868-20FF-061B-0052-B609B46C06B0">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>4DDA5B1F-9790-A786-6947-E0B76F4042E2</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESSOA_FISICA_CPF" id="3825908C-A4D5-D12A-42EC-E1B64292EF02">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>DD34B879-8D20-0937-F75E-E0EDDA733AFD</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90B7D84B-37BE-3EB2-969B-6804274C6107" referredColumn="42EEFB6C-4790-003D-8D12-A98370FBF6F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD85EF66-6EF2-7ABB-E596-600B412AA2D4" name="PACIENTE_PK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>67D72A76-D2C2-2A2C-3008-1AD949B6EEF9</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="324AE2B9-3771-3057-157C-6A8C5A09AB3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD77D0BD-381F-E301-82BA-3991D6066ADD" name="PACIENTE__IDX">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DD858B7E-A577-5B0E-CFD2-E71B90A3F622</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3825908C-A4D5-D12A-42EC-E1B64292EF02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="642CF195-1109-BDDB-E0BE-1D811C71E031" name="PACIENTE_PESSOA_FISICA_FK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>DD858B7E-A577-5B0E-CFD2-E71B90A3F622</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3825908C-A4D5-D12A-42EC-E1B64292EF02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

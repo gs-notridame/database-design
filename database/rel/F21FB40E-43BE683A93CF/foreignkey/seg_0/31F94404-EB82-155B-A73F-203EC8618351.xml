@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="31F94404-EB82-155B-A73F-203EC8618351" containerWithKeyObject="868E9ED3-BD9D-AF09-86EB-C327B6786E40" localFKIndex="94C976A8-7CF2-5943-523E-906477A7ACB9" name="PESSOA_PESSOA_FISICA_FK">
+<createdBy>matpi</createdBy>
+<createdTime>2023-11-30 23:15:53 UTC</createdTime>
+<generatorID>5BA52756-B0C1-4B17-8EBB-9B0FBC39F354</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<referredTableLongName>PESSOA_FISICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CEE18D1C-09B9-6D54-1F5C-713A7AE70140</referredTableID>
+<keyObject>D8EDF75B-3691-0E40-FA5B-FEC588F2B17D</keyObject>
+<referredKeyID>D8EDF75B-3691-0E40-FA5B-FEC588F2B17D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CPF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
