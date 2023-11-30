@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D0EB587-F8C2-91DB-9E20-E0F498092A2E" name="AGENDA_MEDICO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>C2F3F7A1-5554-4218-09F5-FBD472D84967</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_AGENDA" id="BB05A3CD-1949-3AA3-3BD3-FECE5FDBA3DB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>210093E6-26CA-CEFE-0A6A-CA206F82BEDA</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_DISPONIBILIDADE" id="44680EB6-78F3-C47D-2FA8-4F1E29E4E8B4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>AD3E2225-EA88-42ED-1686-BE63A4BFAFF3</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_INICIO_DISPONIBILIDADE" id="C1C24B20-3975-0CF1-D35B-40B00AF199C7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>ABB68828-A0EA-BE75-65FA-BCB200A328B8</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_TERMINO_DISPONIBILIDADE" id="26F72B72-7B2E-EAAB-B4F6-133F4016D01C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>22AF7147-F0DE-862B-6082-68B8E9176D5B</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_DISPONIBILIDADE" id="C23114F4-7E37-9520-00F9-D471B8264681">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>46F12651-2B1C-9957-BB64-56821758DDA3</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INTERVALO" id="658A9AA1-3119-9A86-2132-DC5716F004DC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>2ADDA2DC-B555-530D-F5FA-F66A7B5AD3D8</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDICO_COD_MEDICO" id="B450600E-E295-8CFD-A329-8D3B5EDFB411">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>85FFCBFB-7BC1-939A-D667-20C18FD3AE0F</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20A4968C-5886-1493-E645-63989070CCA4" referredColumn="D1399C6B-2689-CB8F-562F-4DAB485B7673"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A8FBF54-4847-1AE9-DF8E-EBE68CC523E8" name="AGENDA_MEDICO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>E341C74D-3A5F-DC1D-4EAA-0FAA633A8917</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB05A3CD-1949-3AA3-3BD3-FECE5FDBA3DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4351568D-2EB4-0034-3044-6B25D4D432B9" name="AGENDA_MEDICO__IDX">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2750F36F-8550-8781-9926-CBA89A6F33AE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B450600E-E295-8CFD-A329-8D3B5EDFB411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD65B58B-709D-43BF-F63B-DDFDEE63334F" name="AGENDA_MEDICO_MEDICO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>2750F36F-8550-8781-9926-CBA89A6F33AE</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B450600E-E295-8CFD-A329-8D3B5EDFB411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

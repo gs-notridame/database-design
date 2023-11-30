@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B982FB20-979C-A683-5F41-A294FBF994AB" name="PACIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>00A86A7D-827D-2692-47F7-227DEBF15C60</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PACIENTE" id="C8443C39-DE5C-A33F-5DCF-AB5C2FAE9DAF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>D5E5FA69-E21F-6AD3-B39D-AC76826F36BF</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HISTORICO" id="BD45FC6E-AE4D-42C2-68D8-68B542F78328">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>0C58C3C4-4FBF-8DFA-E012-583B6148874B</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_SEGURO_SAUDE" id="3B641C71-6F18-0ED8-9014-5E2882142D09">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>4DDA5B1F-9790-A786-6947-E0B76F4042E2</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESSOA_FISICA_CPF" id="07D4DB2B-8863-05B0-E6CA-007544A427CF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>DD34B879-8D20-0937-F75E-E0EDDA733AFD</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F37BDA23-CB6C-FADA-BF8D-95EEFFC02226" referredColumn="803D41DC-E177-B4E6-AE6E-D3E9E6BA7532"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53E5765B-679A-4D58-B398-57DD5E99B814" name="PACIENTE_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>67D72A76-D2C2-2A2C-3008-1AD949B6EEF9</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8443C39-DE5C-A33F-5DCF-AB5C2FAE9DAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DD65BC0-3B3C-29D3-0182-0BD81A89DC22" name="PACIENTE__IDX">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DD858B7E-A577-5B0E-CFD2-E71B90A3F622</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="07D4DB2B-8863-05B0-E6CA-007544A427CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF41EDE8-150E-7986-0006-589576547E33" name="PACIENTE_PESSOA_FISICA_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>DD858B7E-A577-5B0E-CFD2-E71B90A3F622</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07D4DB2B-8863-05B0-E6CA-007544A427CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

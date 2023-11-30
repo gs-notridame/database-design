@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3229445-ACA5-6089-C2CB-AE23D563203E" name="MEDICO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>42F428E3-FF00-5FFC-894F-F8A30897BCFE</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_MEDICO" id="D1399C6B-2689-CB8F-562F-4DAB485B7673">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>571A5FE2-BB95-7087-D245-FB85C5E7033E</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CRP" id="A58762EC-AA3A-132B-4C3A-C9B09E4DCF6A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>4583F99A-2733-D45F-BC51-3608939EDF6C</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESSOA_FISICA_CPF" id="042A35F4-7204-13D4-D41E-7126EE7DF2BF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>D456F687-D733-D3AF-24E1-F9E1EA3A7EF6</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3FD2CA7-0E3A-EAAD-EE6D-7D539D25F6A1" referredColumn="803D41DC-E177-B4E6-AE6E-D3E9E6BA7532"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE7C2780-4FEC-2CFE-F194-A4B544EDCB4B" name="MEDICO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>6950020C-86EF-2CD1-94EB-272D06723BE3</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1399C6B-2689-CB8F-562F-4DAB485B7673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84AE34D0-3530-3A1B-0DB9-FB0784CEAF9D" name="MEDICO__IDX">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>26760B62-7D99-A2F6-826E-C8664F16312B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="042A35F4-7204-13D4-D41E-7126EE7DF2BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="925416E0-9D25-C389-5BAB-E25D3E62F85B" name="MEDICO_PESSOA_FISICA_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>26760B62-7D99-A2F6-826E-C8664F16312B</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="042A35F4-7204-13D4-D41E-7126EE7DF2BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

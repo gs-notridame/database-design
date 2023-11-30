@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFFF0493-4770-C6B5-92CC-D5520C534CDB" name="DIAGNOSTICO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>D1413585-F327-9623-4067-6821801E4268</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_DIAGNOSTICO" id="BA40A496-01F0-6788-95E7-1ADCF341C9BA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>1E797C23-3820-1E4E-4AC5-35A7BB073867</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_GERACAO" id="6E344D2A-F0B5-A334-C338-AE2C93193D52">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>C6F474AA-2246-6D0A-DA53-CBD4FA483081</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESULTADO" id="AD2F9402-3F70-EAE0-8552-6E8504B25098">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>F63284ED-5FF1-7F1C-A9FA-2D65CD011811</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACAO" id="062FBDE5-B2BC-5400-FF33-CF8548C95A3F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>6DDD199A-4363-6111-73C7-72549E5BDAB8</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGMENTO_ACAO" id="BBB38587-8EF4-36DA-F889-3D2CB01BC14B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>2E271338-8150-2436-F103-AEBBC7AD4159</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRIAGEM_COD_TRIAGEM" id="31F29D7B-FBD4-4A1E-9761-DDB818A1BBBB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>A8128718-2F6E-6993-AF60-035CD03C31B7</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D6CE6E7-BA13-A3C6-2224-4B3C8FC61429" referredColumn="40E3E385-91DA-80BC-B236-92606238A3A4"/>
+</associations>
+</Column>
+<Column name="MEDICO_COD_MEDICO" id="7E974BF8-D283-48AC-F07F-FE80A2B06838">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>FFF367E0-9C4D-6CD6-7F6E-FF315BB41D02</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36B58C69-D0BB-C9B3-ACB5-AD13869C0D62" referredColumn="D1399C6B-2689-CB8F-562F-4DAB485B7673"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDAB4425-EAD8-9D94-115E-B12C5E21E662" name="DIAGNOSTICO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>F3CAF66B-7571-4F11-CB82-4A6052376928</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA40A496-01F0-6788-95E7-1ADCF341C9BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0FF4E93-0403-3C8F-C0D5-57904E254BD2" name="DIAGNOSTICO__IDX">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CE686D74-C49C-FAF6-6E29-A0FA725AD98F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="31F29D7B-FBD4-4A1E-9761-DDB818A1BBBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E9DD688-71EF-2A7C-23B2-1FA75ECCD125" name="DIAGNOSTICO_TRIAGEM_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>CE686D74-C49C-FAF6-6E29-A0FA725AD98F</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31F29D7B-FBD4-4A1E-9761-DDB818A1BBBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBBD8F1E-0C20-E32C-90F4-1229F1F969C9" name="DIAGNOSTICO_MEDICO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>FB84CABD-CEF6-E5D1-934F-8A700ED93339</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E974BF8-D283-48AC-F07F-FE80A2B06838"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

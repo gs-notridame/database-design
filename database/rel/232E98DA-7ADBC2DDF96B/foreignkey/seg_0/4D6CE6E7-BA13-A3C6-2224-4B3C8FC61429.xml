@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D6CE6E7-BA13-A3C6-2224-4B3C8FC61429" containerWithKeyObject="AFFF0493-4770-C6B5-92CC-D5520C534CDB" localFKIndex="7E9DD688-71EF-2A7C-23B2-1FA75ECCD125" name="DIAGNOSTICO_TRIAGEM_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>CE686D74-C49C-FAF6-6E29-A0FA725AD98F</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<referredTableLongName>TRIAGEM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA3569DF-253E-76A6-874F-F50A5DB3F044</referredTableID>
+<keyObject>E3CDC6F3-1F5E-4A3E-A7A7-8870CFB356AA</keyObject>
+<referredKeyID>E3CDC6F3-1F5E-4A3E-A7A7-8870CFB356AA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_TRIAGEM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

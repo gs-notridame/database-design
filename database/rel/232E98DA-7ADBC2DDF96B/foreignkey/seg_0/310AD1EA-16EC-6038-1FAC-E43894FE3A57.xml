@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="310AD1EA-16EC-6038-1FAC-E43894FE3A57" containerWithKeyObject="CDD15C89-C43B-7C82-E48C-12F7F2C6FC14" localFKIndex="208ADFCF-D095-F486-7CB6-9DBE147E343A" name="RECOMENDACAO_DIAGNOSTICO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>E78FF7FA-0D5F-A805-B8DE-2FB4242956C9</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<referredTableLongName>DIAGNOSTICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AFFF0493-4770-C6B5-92CC-D5520C534CDB</referredTableID>
+<keyObject>CDAB4425-EAD8-9D94-115E-B12C5E21E662</keyObject>
+<referredKeyID>CDAB4425-EAD8-9D94-115E-B12C5E21E662</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_DIAGNOSTICO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

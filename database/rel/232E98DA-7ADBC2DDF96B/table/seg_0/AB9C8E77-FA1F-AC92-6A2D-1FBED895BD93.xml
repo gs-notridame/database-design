@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB9C8E77-FA1F-AC92-6A2D-1FBED895BD93" name="AGENDAMENTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>EC1B9CC6-E805-2F98-D333-B0005248B1D5</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_AGENDAMENTO" id="8953F755-94F5-93EC-5E33-9753D59773A4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>073DADA3-594C-EDDF-FC9A-4A05719CFCA6</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_AGENDAMENTO" id="97B64F95-5A41-C158-7637-3363CE77544E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>052DD785-66C6-C312-6041-D34A603366B2</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_AGENDAMENTO" id="AAE43CD7-744A-DB0A-3778-1A4B6F2C88B6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>974A3BFE-13A3-CF9B-5BF8-389E173635AC</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="8AE516F9-2A7A-DD00-AF5A-B4115E0B6E2C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>6285A811-7436-1195-100F-EC9824134204</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBSERVACOES" id="4DB11608-325D-53D0-261A-031E962C5A2C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>A7A70CBE-E336-6FD3-93FE-8CA9D227182C</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGENDA_MEDICO_COD_AGENDA" id="2CCBFFFA-8B55-BC55-0658-702F946DFE48">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>268F06CE-F79A-B0D7-8158-D907DB4127F2</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC6F61DE-23F6-489E-E838-6F6C1C8E9A60" referredColumn="BB05A3CD-1949-3AA3-3BD3-FECE5FDBA3DB"/>
+</associations>
+</Column>
+<Column name="PACIENTE_COD_PACIENTE" id="A25C400D-7472-2D9C-EDCF-8F8BA707809A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>041CB39C-27CB-50B7-9B2D-9EEA15228B42</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8F88D2C-ABBA-9C73-C8E8-5992110DCEB0" referredColumn="C8443C39-DE5C-A33F-5DCF-AB5C2FAE9DAF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C9D1E81-97AD-974C-2D6B-A3C736765F4B" name="AGENDAMENTO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>0E440FD6-2B48-5868-322A-DBC419429BE4</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8953F755-94F5-93EC-5E33-9753D59773A4"/>
+<colUsage columnID="2CCBFFFA-8B55-BC55-0658-702F946DFE48"/>
+<colUsage columnID="A25C400D-7472-2D9C-EDCF-8F8BA707809A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="652A42C6-569C-7600-3BCC-DE09BC8F3AE7" name="AGENDAMENTO_AGENDA_MEDICO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>B8AFEFBA-1357-B50B-3721-26ECD1975F26</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CCBFFFA-8B55-BC55-0658-702F946DFE48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1937C14B-50C7-6D28-F660-D513F26B05E9" name="AGENDAMENTO_PACIENTE_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-11-30 23:21:38 UTC</createdTime>
+<generatorID>BE6FF75A-09D0-6258-006C-063655A43627</generatorID>
+<ownerDesignName>database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A25C400D-7472-2D9C-EDCF-8F8BA707809A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
