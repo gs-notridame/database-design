@@ -309,7 +309,7 @@ BEGIN
         INSERT INTO genero
         VALUES (COD_GENERO, GENERO   );
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -327,7 +327,7 @@ BEGIN
         INSERT INTO pessoa_fisica
         VALUES (DATA_NASC,CPF, GENERO_COD_GENERO);
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -349,7 +349,7 @@ BEGIN
         INSERT INTO pessoa
         VALUES (COD_PESSOA, NOME, EMAIL, SOFT_DELETE, USUARIO, SENHA,PESSOA_FISICA_CPF );
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -368,7 +368,7 @@ BEGIN
         INSERT INTO telefone
         VALUES (COD_TELEFONE, NUMERO, DDD, PESSOA_COD_PESSOA);
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -385,7 +385,7 @@ BEGIN
         INSERT INTO pais
         VALUES (COD_PAIS, NOME);
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -403,7 +403,7 @@ BEGIN
         INSERT INTO estado
         VALUES (COD_ESTADO, NOME, PAIS_COD_PAIS);
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -422,7 +422,7 @@ BEGIN
         INSERT INTO cidade
         VALUES (COD_CIDADE, NOME,ESTADO_COD_ESTADO, COD_IBGE);
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -440,7 +440,7 @@ BEGIN
         INSERT INTO bairro
         VALUES (COD_BAIRRO, NOME, CIDADE_COD_CIDADE );
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -462,7 +462,7 @@ BEGIN
         INSERT INTO endereco
         VALUES (COD_ENDERECO, CEP, LOGRADOURO,NUMERO, COMPLEMENTO, PESSOA_COD_PESSOA, BAIRRO_COD_BAIRRO );
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -480,7 +480,7 @@ BEGIN
         INSERT INTO medico
         VALUES ( COD_MEDICO, CRP, PESSOA_FISICA_CPF  );
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -498,7 +498,7 @@ BEGIN
         INSERT INTO especialidade
         VALUES (COD_ESPECIALIDADE,ESPECIALIDADE ,MEDICO_COD_MEDICO);
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -518,7 +518,7 @@ BEGIN
         INSERT INTO avaliacao
         VALUES (COD_AVALIACAO, NOTA, COMENTARIO,  DATA , MEDICO_COD_MEDICO  );
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -540,7 +540,7 @@ BEGIN
         INSERT INTO agenda_medico
         VALUES (COD_AGENDA,DATA_DISPONIBILIDADE,HORA_INICIO_DISPONIBILIDADE,HORA_TERMINO_DISPONIBILIDADE, STATUS_DISPONIBILIDADE,INTERVALO, MEDICO_COD_MEDICO );
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -559,7 +559,7 @@ BEGIN
         INSERT INTO paciente
         VALUES (COD_PACIENTE, HISTORICO, NUM_SEGURO_SAUDE, PESSOA_FISICA_CPF    );
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -582,7 +582,7 @@ BEGIN
         INSERT INTO agendamento
         VALUES (COD_AGENDAMENTO,DATA_AGENDAMENTO, HORA_AGENDAMENTO, STATUS, OBSERVACOES, AGENDA_MEDICO_COD_AGENDA, PACIENTE_COD_PACIENTE );
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -604,7 +604,7 @@ BEGIN
         INSERT INTO questionario
         VALUES (COD_QUESTIONARIO,TITULO, DESCRICAO, PERGUNTAS,CATEGORIA, NOME_CRIADOR, DURACAO);
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -626,7 +626,7 @@ BEGIN
         INSERT INTO triagem
         VALUES (COD_TRIAGEM,INICIO ,FIM, DURACAO, RESPOSTAS, PACIENTE_COD_PACIENTE, QUESTIONARIO_COD_QUESTIONARIO );
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -648,7 +648,7 @@ BEGIN
         INSERT INTO diagnostico
         VALUES (COD_DIAGNOSTICO, DATA_GERACAO, RESULTADO, OBSERVACAO, SEGMENTO_ACAO,TRIAGEM_COD_TRIAGEM, MEDICO_COD_MEDICO);
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -666,7 +666,7 @@ BEGIN
         INSERT INTO recomendacao
         VALUES (COD_RECOMENDACAO, RECOMENDACAO,DIAGNOSTICO_COD_DIAGNOSTICO );
  
-        DBMS_OUTPUT.PUT_LINE('Registro de farmÃ¡cia inserido com sucesso.');
+        DBMS_OUTPUT.PUT_LINE('Registro de farmácia inserido com sucesso.');
     EXCEPTION
         WHEN DUP_VAL_ON_INDEX THEN
             DBMS_OUTPUT.PUT_LINE('Erro: Dados repetidos.');
@@ -676,7 +676,7 @@ END;
 
 --Relatorio 1--
 DECLARE
-   -- DeclaraÃ§Ã£o de variÃ¡veis para cursor
+   -- Declaração de variáveis para cursor
    v_cod_especialidade NUMBER;
    v_especialidade      VARCHAR2(50);
    v_cod_medico         NUMBER;
@@ -685,15 +685,15 @@ BEGIN
    FOR especialidade_rec IN (SELECT es.cod_especialidade, es.especialidade, es.medico_cod_medico
                              FROM especialidade es)
    LOOP
-      -- AtribuiÃ§Ã£o de valores Ã s variÃ¡veis
+      -- Atribuição de valores às variáveis
       v_cod_especialidade := especialidade_rec.cod_especialidade;
       v_especialidade      := especialidade_rec.especialidade;
       v_cod_medico         := especialidade_rec.medico_cod_medico;
 
-      -- ImpressÃ£o dos resultados ou processamento adicional
-      DBMS_OUTPUT.PUT_LINE('CÃ³digo da Especialidade: ' || v_cod_especialidade);
+      -- Impressão dos resultados ou processamento adicional
+      DBMS_OUTPUT.PUT_LINE('Código da Especialidade: ' || v_cod_especialidade);
       DBMS_OUTPUT.PUT_LINE('Especialidade: ' || v_especialidade);
-      DBMS_OUTPUT.PUT_LINE('CÃ³digo do MÃ©dico: ' || v_cod_medico);
+      DBMS_OUTPUT.PUT_LINE('Código do Médico: ' || v_cod_medico);
       DBMS_OUTPUT.PUT_LINE('----------------------------------------');
    END LOOP;
 END;
@@ -701,7 +701,7 @@ END;
 
 --Relatorio 2--
 DECLARE
-   -- DeclaraÃ§Ã£o de variÃ¡veis para cursor
+   -- Declaração de variáveis para cursor
    v_cod_medico         NUMBER;
    v_crp                VARCHAR2(20);
    v_pessoa_fisica_cpf NUMBER;
@@ -716,7 +716,7 @@ BEGIN
            JOIN diagnostico d ON m.cod_medico = d.medico_cod_medico
    )
    LOOP
-      -- AtribuiÃ§Ã£o de valores Ã s variÃ¡veis
+      -- Atribuição de valores às variáveis
       v_cod_medico         := medico_diagnostico_rec.cod_medico;
       v_crp                := medico_diagnostico_rec.crp;
       v_pessoa_fisica_cpf := medico_diagnostico_rec.pessoa_fisica_cpf;
@@ -724,13 +724,13 @@ BEGIN
       v_data_geracao       := medico_diagnostico_rec.data_geracao;
       v_resultado          := medico_diagnostico_rec.resultado;
 
-      -- ImpressÃ£o dos resultados ou processamento adicional
-      DBMS_OUTPUT.PUT_LINE('CÃ³digo do MÃ©dico: ' || v_cod_medico);
+      -- Impressão dos resultados ou processamento adicional
+      DBMS_OUTPUT.PUT_LINE('Código do Médico: ' || v_cod_medico);
       DBMS_OUTPUT.PUT_LINE('CRP: ' || v_crp);
-      DBMS_OUTPUT.PUT_LINE('CPF da Pessoa FÃ­sica: ' || v_pessoa_fisica_cpf);
-      DBMS_OUTPUT.PUT_LINE('CÃ³digo do DiagnÃ³stico: ' || v_cod_diagnostico);
-      DBMS_OUTPUT.PUT_LINE('Data do DiagnÃ³stico: ' || TO_CHAR(v_data_geracao, 'DD/MM/YYYY'));
-      DBMS_OUTPUT.PUT_LINE('Resultado do DiagnÃ³stico: ' || v_resultado);
+      DBMS_OUTPUT.PUT_LINE('CPF da Pessoa Física: ' || v_pessoa_fisica_cpf);
+      DBMS_OUTPUT.PUT_LINE('Código do Diagnóstico: ' || v_cod_diagnostico);
+      DBMS_OUTPUT.PUT_LINE('Data do Diagnóstico: ' || TO_CHAR(v_data_geracao, 'DD/MM/YYYY'));
+      DBMS_OUTPUT.PUT_LINE('Resultado do Diagnóstico: ' || v_resultado);
       DBMS_OUTPUT.PUT_LINE('----------------------------------------');
    END LOOP;
 END;
