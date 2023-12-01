@@ -674,16 +674,20 @@ BEGIN
 END;
 /
 
---Relatorio 1--
+--Relatorio 1 com Cursor--
 DECLARE
    -- Declaração de variáveis para cursor
    v_cod_especialidade NUMBER;
    v_especialidade      VARCHAR2(50);
    v_cod_medico         NUMBER;
+
+   -- Declaração do cursor
+   CURSOR especialidade_cur IS
+      SELECT es.cod_especialidade, es.especialidade, es.medico_cod_medico
+      FROM especialidade es;
 BEGIN
-   -- Abertura do cursor para a tabela especialidade
-   FOR especialidade_rec IN (SELECT es.cod_especialidade, es.especialidade, es.medico_cod_medico
-                             FROM especialidade es)
+   -- Abertura do cursor
+   FOR especialidade_rec IN especialidade_cur
    LOOP
       -- Atribuição de valores às variáveis
       v_cod_especialidade := especialidade_rec.cod_especialidade;
@@ -699,7 +703,12 @@ BEGIN
 END;
 /
 
---Relatorio 2--
+SET SERVEROUTPUT ON;
+
+
+SET SERVEROUTPUT ON;
+
+-- Relatório 2 com Cursor  medico e diagnostico--
 DECLARE
    -- Declaração de variáveis para cursor
    v_cod_medico         NUMBER;
@@ -708,21 +717,37 @@ DECLARE
    v_cod_diagnostico    NUMBER;
    v_data_geracao       DATE;
    v_resultado          VARCHAR2(200);
+   v_observacao         VARCHAR2(30);
+   v_segmento_acao      VARCHAR2(30);
+   v_triagem_cod_triagem NUMBER;
+
+   -- Declaração do cursor
+   CURSOR medico_diagnostico_cur IS
+      SELECT m.COD_MEDICO,
+             m.CRP,
+             m.PESSOA_FISICA_CPF,
+             d.COD_DIAGNOSTICO,
+             d.DATA_GERACAO,
+             d.RESULTADO,
+             d.OBSERVACAO,
+             d.SEGMENTO_ACAO,
+             d.TRIAGEM_COD_TRIAGEM
+      FROM MEDICO m
+           JOIN DIAGNOSTICO d ON m.COD_MEDICO = d.MEDICO_COD_MEDICO;
 BEGIN
-   -- Abertura do cursor para a tabela medico e diagnostico
-   FOR medico_diagnostico_rec IN (
-      SELECT m.cod_medico, m.crp, m.pessoa_fisica_cpf, d.cod_diagnostico, d.data_geracao, d.resultado
-      FROM medico m
-           JOIN diagnostico d ON m.cod_medico = d.medico_cod_medico
-   )
+   -- Abertura do cursor
+   FOR medico_diagnostico_rec IN medico_diagnostico_cur
    LOOP
       -- Atribuição de valores às variáveis
-      v_cod_medico         := medico_diagnostico_rec.cod_medico;
-      v_crp                := medico_diagnostico_rec.crp;
-      v_pessoa_fisica_cpf := medico_diagnostico_rec.pessoa_fisica_cpf;
-      v_cod_diagnostico    := medico_diagnostico_rec.cod_diagnostico;
-      v_data_geracao       := medico_diagnostico_rec.data_geracao;
-      v_resultado          := medico_diagnostico_rec.resultado;
+      v_cod_medico         := medico_diagnostico_rec.COD_MEDICO;
+      v_crp                := medico_diagnostico_rec.CRP;
+      v_pessoa_fisica_cpf := medico_diagnostico_rec.PESSOA_FISICA_CPF;
+      v_cod_diagnostico    := medico_diagnostico_rec.COD_DIAGNOSTICO;
+      v_data_geracao       := medico_diagnostico_rec.DATA_GERACAO;
+      v_resultado          := medico_diagnostico_rec.RESULTADO;
+      v_observacao         := medico_diagnostico_rec.OBSERVACAO;
+      v_segmento_acao      := medico_diagnostico_rec.SEGMENTO_ACAO;
+      v_triagem_cod_triagem := medico_diagnostico_rec.TRIAGEM_COD_TRIAGEM;
 
       -- Impressão dos resultados ou processamento adicional
       DBMS_OUTPUT.PUT_LINE('Código do Médico: ' || v_cod_medico);
@@ -731,6 +756,9 @@ BEGIN
       DBMS_OUTPUT.PUT_LINE('Código do Diagnóstico: ' || v_cod_diagnostico);
       DBMS_OUTPUT.PUT_LINE('Data do Diagnóstico: ' || TO_CHAR(v_data_geracao, 'DD/MM/YYYY'));
       DBMS_OUTPUT.PUT_LINE('Resultado do Diagnóstico: ' || v_resultado);
+      DBMS_OUTPUT.PUT_LINE('Observação: ' || v_observacao);
+      DBMS_OUTPUT.PUT_LINE('Segmento de Ação: ' || v_segmento_acao);
+      DBMS_OUTPUT.PUT_LINE('Código da Triagem: ' || v_triagem_cod_triagem);
       DBMS_OUTPUT.PUT_LINE('----------------------------------------');
    END LOOP;
 END;
