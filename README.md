@@ -1,3 +1,3 @@
 # Database Design
 
-Repositório dedicado ao serviço de Database Application e Data Science
+Repositório dedicado ao serviço de Database Application
