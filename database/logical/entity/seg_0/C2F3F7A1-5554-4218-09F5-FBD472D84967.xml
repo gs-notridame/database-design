@@ -4,7 +4,7 @@
 <createdTime>2023-11-24 16:20:02 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+<item key="F21FB40E-E962-3F8B-61AF-43BE683A93CF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_AGENDA" id="210093E6-26CA-CEFE-0A6A-CA206F82BEDA">
+<Attribute name="COD_AGENDA_MEDICO" id="210093E6-26CA-CEFE-0A6A-CA206F82BEDA">
 <createdBy>Meu Computador</createdBy>
 <createdTime>2023-11-24 16:31:23 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+<item key="F21FB40E-E962-3F8B-61AF-43BE683A93CF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2023-11-24 16:31:23 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+<item key="F21FB40E-E962-3F8B-61AF-43BE683A93CF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,7 +45,7 @@
 <createdTime>2023-11-24 16:31:23 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+<item key="F21FB40E-E962-3F8B-61AF-43BE683A93CF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,7 +58,7 @@
 <createdTime>2023-11-24 16:31:23 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+<item key="F21FB40E-E962-3F8B-61AF-43BE683A93CF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -71,7 +71,7 @@
 <createdTime>2023-11-24 16:31:23 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+<item key="F21FB40E-E962-3F8B-61AF-43BE683A93CF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -85,7 +85,7 @@
 <createdTime>2023-11-24 16:31:24 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+<item key="F21FB40E-E962-3F8B-61AF-43BE683A93CF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -99,7 +99,7 @@
 <generatorID>2750F36F-8550-8781-9926-CBA89A6F33AE</generatorID>
 <ownerDesignName>database</ownerDesignName>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="true"/>
+<item key="F21FB40E-E962-3F8B-61AF-43BE683A93CF" value="true"/>
 </engineerTo>
 <referedAttribute>571A5FE2-BB95-7087-D245-FB85C5E7033E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -113,9 +113,8 @@
 <createdBy>Meu Computador</createdBy>
 <createdTime>2023-11-24 16:32:36 UTC</createdTime>
 <ownerDesignName>database</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="4098D166-45B0-A2C4-A71B-9065D0D24601" value="false"/>
+<item key="F21FB40E-E962-3F8B-61AF-43BE683A93CF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
